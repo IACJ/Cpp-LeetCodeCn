@@ -3,7 +3,9 @@ project(Cpp_LeetCodeCn)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(T4 median-of-two-sorted-arrays/median-of-two-sorted-arrays.cpp)
+add_executable(T4b2 median-of-two-sorted-arrays/better.cpp)
+
+add_executable(T4 median-of-two-sorted-arrays/median-of-two-sorted-arrays.cpp )
 
 add_executable(T3 longest-substring-without-repeating-characters/longest-substring-without-repeating-characters.cpp)
 

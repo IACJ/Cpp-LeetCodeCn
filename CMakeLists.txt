@@ -3,6 +3,8 @@ project(Cpp_LeetCodeCn)
 
 set(CMAKE_CXX_STANDARD 11)
 
+add_executable(T5 longest-palindromic-substring/longest-palindromic-substring.cpp)
+
 add_executable(T4b2 median-of-two-sorted-arrays/better.cpp)
 
 add_executable(T4 median-of-two-sorted-arrays/median-of-two-sorted-arrays.cpp )
